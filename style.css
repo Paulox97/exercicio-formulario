@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <section>
+        <h1>Faça o seu cadastro</h1>
+        <p>campos marcados com (*) são de preenchimento obrigatório</p>
+        <form action="#" method="post"></form>
+        <fieldset>
+            <span>1</span>
+            <legend, numero>Login</legend,>
+            <div>
+                <label for="nome">Nome *</label>
+                <input type="text" required name="nome" id="nome">
+            </div>
+            <div>
+                <label for="email">Email *</label>
+                <input type="email" required name="email" id="email">
+            </div>
+            <div>
+                <label for="senha">Senha *</label>
+                <input type="password" required name="senha" id="senha">
+            </div>
+            <div>
+                <label for="nascimento">Data de Nascimento</label>
+                <input type="date" name="data" id="data">
+            </div>
+            <div>
+                <label>Declaro que sou</label>
+                <div>
+                    <input type="radio" name="declaracao" id="menor18" value="menor18">
+                    <label for="menor18">menor que 18 anos</label>
+                </div>
+                <div>
+                    <input type="radio" name="declaracao" id="maior18" value="maior18">
+                    <label for="maior18">maior que 18 anos</label>
+                </div>
+            </div>
+        </fieldset>
+
+        <div>
+            <span>2</span>
+            <label for="biografia">Biografia</label>
+            <textarea name="biografia" id="biografia" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <span>3</span>
+            <label for="dados">Dados Profissionais</label>
+            <div>
+                <label for="Interesses">Interesses</label>
+                <select name="interesses" id="interesses">
+                    <option value="front-end">front-end</option>
+                    <option value="back-end">back-end</option>
+                </select>
+            </div>
+        </div>
+
+        <div>
+            <span>4</span>
+            <label for="curriculo">Envie seu curriculum vitae</label>
+            <input type="file" id="file" name="file">
+        </div>
+
+        <div>
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <label for="receber">Desejo receber as vagas por email</label>
+        </div>
+
+        <div>
+            <input type="submit" id="submit" name="submit">
+            <label for="Enviar"></label>
+        </div>
+
+    </section>
+</body>
+</html>
